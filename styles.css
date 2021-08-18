@@ -1,0 +1,239 @@
+body {
+    background-color: #EEEFFF;
+    margin: 0;
+}
+
+
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* All Tags */
+
+p {
+    color: wheat;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* hr {
+    text-align: center;
+    border-style: dotted none none none;
+    border-top-width: 10px;
+    border: 20px 0 0 0;
+    width: 60px;
+    height: 20px;
+} */
+
+.hr {
+    margin: 40px auto 30px auto;
+    color: #4242428c;
+    border-style: dotted none none none;
+    border-top-width: 10px;
+    border: 30px 0 0 0;
+    width: 90px;
+    height: 10px;
+}
+
+
+/* Title Section. */
+
+.goToTop {
+    z-index: 3;
+    position: fixed;
+    top: 60%;
+    left: 93%;
+    height: 300px;
+}
+
+.fas {
+    font-size: 3rem;
+    color: #00ADB5;
+}
+
+.fas:hover {
+    font-size: 3rem;
+    color: #3b3b3b;
+}
+
+.titleFrameTop {
+    background-color: #222831;
+    padding: 1% 1%;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.titleFrameBottom {
+    height: 10%;
+    padding: 5% 1%;
+    background-color: #222831;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.titleHeading {
+    color: #fff;
+    padding: 2%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.titleFrameBottomHeading {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.bottomCol2 {
+    text-align: center;
+}
+
+.titleFrameBottomImage {
+    background-color: #424242;
+    padding: 20px;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 50px;
+    height: 250px;
+}
+
+.companyDescription {
+    color: rgb(53, 53, 53);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tab {
+    padding-left: 100px;
+}
+
+.faspen {
+    text-align: center;
+    font-size: 3rem;
+    color: #00ADB5;
+}
+
+.titleFrameBottom2 {
+    height: 10%;
+    padding: 1% 1%;
+    background-color: #fff;
+    margin: 2px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.titleFrameBottom2Inner {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.companyDescription {
+    font-size: 1.2rem;
+}
+
+.titleFrameBottom3 {
+    /* height: 5%; */
+    padding: 1% 1% 1% 1%;
+    background-color: #222831;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.ourCore {
+    padding: 1%;
+    color: white;
+    text-align: center;
+}
+
+.tableText,
+.tableIcon {
+    color: white;
+    padding: 1%;
+}
+
+.comp1 {
+    text-align: center;
+    padding: 1%;
+}
+
+.compItems {
+    text-align: center;
+}
+
+#testimonials {
+    padding: 4% 2%;
+    background-color: #fff;
+    /* text-align: center; */
+    position: relative;
+    color: #00ADB5;
+}
+
+.partnersCarousel {
+    text-align: center;
+    padding: 15%;
+    color: black;
+}
+
+.carouselImages {
+    background-color: #424242;
+    padding: 10px;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 50px;
+    height: 200px;
+}
+
+.carouselText {
+    padding: 5%;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.ourClients {
+    padding: 1%;
+    color: rgb(42, 42, 42);
+    text-align: center;
+}
+
+.titleFrameBottom4 {
+    /* height: 5%; */
+    padding: 1% 1% 1% 1%;
+    background-color: #222831;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footerDescription {
+    color: white;
+    text-align: center;
+}
+
+.gothic {
+    font-size: 40px;
+    color: black;
+    font-family: "gothic", monospace;
+    text-align: center;
+}
+
+.geslogo {
+    height: 50px;
+}
+
+@font-face {
+    font-family: "gothic";
+    src: url("gothicFont.otf") format("opentype");
+}
+
+
+/* 991-767 */
